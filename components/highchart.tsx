@@ -1,13 +1,7 @@
 "use client";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-import React, {
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-  WheelEvent,
-} from "react";
+import React, { useCallback, useRef, useState, WheelEvent } from "react";
 
 const RealTimeChart: React.FC = () => {
   const chartRef = useRef<HighchartsReact.RefObject>(null);
